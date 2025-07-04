@@ -1,0 +1,7 @@
+displayName: Surge Alloy Blades
+name: surgealloybaldes
+author: Raviravirego
+version: "1.0"
+minGameVersion: "146"
+java: true
+dependencies: [enigma]
