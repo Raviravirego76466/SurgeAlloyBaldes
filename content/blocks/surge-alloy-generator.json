@@ -1,0 +1,61 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Surge Alloy Generator",
+  "description": "Uses the high flammability of Surge Alloy to make a decent amount of power.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 60,
+  "powerProduction": 12,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "surge-alloy",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 90
+    },
+    {
+      "item": "titanium",
+      "amount": 75
+    },
+    {
+      "item": "plastanium",
+      "amount": 50
+    }
+  ],
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [   
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom",
+      },
+      {
+        "type": "DrawBlades",
+        "suffix": "-spin",
+        "blades": "5",
+        "speed": "3",
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]}
+  "category": "power",
+  "research": "surge-alloy"
+}
